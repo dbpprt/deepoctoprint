@@ -9,7 +9,7 @@
 ## TLDR 🦥
 You own a 3D Printer? You're using OctoPrint? Your printer is equipped with a camera? You want to help in develop a deep nerual network to detect failing 3D prints without looking at your printer all the time? You're willing to donate frames of your camera to a public dataset?
 
-Then you're the **right** person. Please install the plugin and help us to make a better world! (just kidding, I'm just tired of failing prints in an overnight print).
+Then you're the **right** person. Please install the plugin and help us to make a better world! (just kidding, I'm just tired of failing prints in an overnight print or when I'm at work).
 
 You can download the plugin [here](https://addlinkhere) (*I'm sorry - you can't as of now* 😥)
 
