@@ -1,0 +1,6 @@
+[submodule "octoprint"]
+	path = octoprint
+	url = https://github.com/octoprint/octoprint
+[submodule "mjpeg-streamer"]
+	path = mjpeg-streamer
+	url = https://github.com/jacksonliam/mjpg-streamer

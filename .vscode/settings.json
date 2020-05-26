@@ -1,0 +1,13 @@
+{
+  "python.pythonPath": "/home/dbpprt/miniconda3/envs/deepoctoprint/bin/python",
+  "python.linting.pylintArgs": [
+    "--generate-members --enable=W0614"
+  ],
+  "python.linting.pylintEnabled": true,
+  "[python]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    }
+  },
+  "python.linting.enabled": true
+}
