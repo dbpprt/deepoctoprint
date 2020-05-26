@@ -33,55 +33,55 @@ Currently there is nothing more then a data collector, implemented as **OctoPrin
 
 ## FAQ ⁉️
 
-> Where will my data be stored?
+> **Where will my data be stored?**
 
 The collected data will be stored Frankfurt (DigitalOcean)
 
-> What happens if I'm accidentially naked in front of my 3D printer?
+> **What happens if I'm accidentially naked in front of my 3D printer?**
 
 The collected images will be *cleaned* in a unsupervised fashion. I'm using a simple model to detect human-beings and NSFW content within the pictures (and delete them...)
 
-> But why can't I see any machine learning models in this repository? 😱
+> **But why can't I see any machine learning models in this repository? 😱**
 
 For now only the data collector plugin is available because as you know - every good model starts with a good dataset 😝
 
-> Hmm, when I install the data collector, what will happen with the pictures?
+> **Hmm, when I install the data collector, what will happen with the pictures?**
 
 By installing and enabling the plugin, you agree to publish the images to the public licensed as [**ODbL**](https://opendatacommons.org/licenses/odbl/1-0/index.html). The data collection is anonymously and the data will be kept indefinitely.
 
-> Where can I find the pictures in this repository which I published yesterday?
+> **Where can I find the pictures in this repository which I published yesterday?**
 
 The dataset will be cleaned and distributed at least once a month.
 
-> I want my data to be deleted because I printed ***xxx*** which I don't like to be part of a public dataset?
+> **I want my data to be deleted because I printed** ***xxx*** **which I don't like to be part of a public dataset?**
 
 The plugin writes a unique hex to your octoprint.yaml configuration file. Feel free to create an issue as fast as possible (before I publish the new version of the dataset) to get your data cleaned.
 
-> Why is the plugin licensed as GNU AFFERO GENERAL PUBLIC LICENSE Version 3?
+> **Why is the plugin licensed as GNU AFFERO GENERAL PUBLIC LICENSE Version 3?**
 
 Because I borrowed some code from the Spaghetti Detective plugin (nice work btw!)
 
-> Why has this README so many spelling and grammar issues?
+> **Why has this README so many spelling and grammar issues?**
 
 Sorry, it is late and I'm not a native speaker - feel free to create a PR (*please*)...
 
-> How can I be added in the list of contributors?
+> **How can I be added in the list of contributors?**
 
 You're contributing to the dataset by using the collector plugin or contributed to the code? Just create a PR and add your name. Wait what - but how are you checking that people are really using the plugin? *I don't and I don't intend to do so!*
 
-> Will this be a cloud service or what are your plans?
+> **Will this be a cloud service or what are your plans?**
 
 I intend to create a lightweight model which can be used on Jetson or similar. However at the beginning I will probably experiment with deeper models to find a good baseline.
 
-> How do you want to make this possible, do you actually have any idea of deep learning?
+> **How do you want to make this possible, do you actually have any idea of deep learning?**
 
 Yes I have but this is not subject of this repository. I already explored several approaches using pixel-wise image segmentation to detect the print, the bed and the print head. This helps to detect separations from the print bed, *extereme* clogging and gives us a perfectly trained feature extractor backbone which can be used to explore certain other problems like spaghetti (Which can be easily part of the segmentation itself), warping, etc. I ended up exploring a multi-task learning approach with different losses accross the tasks and different weights for each loss. However this approach was highly complicated but I think it is feasible to use a big network to train a lightweight network in a semi-supervised approach to run it *at the edge*.
 
-> What framework do you prefer?
+> **What framework do you prefer?**
 
 Definitely **PyTorch!** 😍
 
-> Can I contribute to the project?
+> **Can I contribute to the project?**
 
 Yes definitely (and I would highly appreciate it)! There are so many topics to work on, just to name a few:
 - Improve the code - it has no tests, it's pretty hacky, not documented and maybe not using the right architecture.
@@ -90,14 +90,14 @@ Yes definitely (and I would highly appreciate it)! There are so many topics to w
 - Make all your friends to install the **collector plugin**
 - ... and many more ...
 
-> What exactly will be tracked?
+> **What exactly will be tracked?**
 - A unique identifier (hex format) which gets generated when you install the plugin the first time and gets stored in the OctoPrint configuration file
 - A frame of your webcam
 - The time when the print starts
 
 **IMPORTANT:** the plugin only collects data when a print is running!
 
-> Why is there a MIT license in the project but you mentioned AGPLv3?
+> **Why is there a MIT license in the project but you mentioned AGPLv3?**
 
 Some parts of the repository are licensed under different licenses and contain separate LICENSE files.
 - Data Collector Plugin (AGPLv3) - borrows code from [The Spaghetti Detective](http://thespaghettidetective.com/) (which is a nice project, take a look. The authors also share their public dataset.)
