@@ -1,4 +1,4 @@
-# 🤖 DeepOctoPrint 🤖 (- Data Collector only - WIP)
+# 🤖 DeepOctoPrint 🤖 (*WIP: data collector only*)
 ![Spaghettimonster](assets/spaghettimonster.jpg)
 ([source](https://www.pinterest.ca/pin/287174913714717323/))
 
