@@ -143,4 +143,4 @@ Some parts of the repository are licensed under different licenses and contain s
 
 If you really read the entire page till here (and I admit it is pretty long and boring) it must be at least an interesting project so feel free to drop a 🌟 star or follow the project!
 
-(PS: I just like **GIFS** and it is hopyfully eye-catching enough to read the above line) 
+(PS: I just like **GIFS** and it is hopyfully eye-catching enough to make you read the above line) 
