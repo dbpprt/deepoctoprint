@@ -1,5 +1,9 @@
 # 🤖 DeepOctoPrint 🤖 (- Data Collector only - WIP)
-Are you tired of failed prints during the night? Tired of clogging, spaghetti, warping and objects not sticking to the bed? ***I am!*** I started to look for object vision based solutions to monitor my prints or open datasets to train my own model without any success. There are several projects available like [The Spaghetti Detective](https://www.thespaghettidetective.com/), [Kronos Data Collector](https://github.com/MrBreadWater/project-kronos-data-collector), etc. but I was searching for a more open and extensible approach to solve this problem. But unfortunately everything starts with a **good** dataset 😣. I labeled a few hundred pictures of my beloved Prusa MK3S and trained several models to detect certain edge cases which worked out quite well but I want to find a generalized solution which can be used accross the 3D-Printing community. So let me just start with some core **tenets** of this project:
+Are you tired of failed prints during the night? Tired of clogging, spaghetti, warping and objects not sticking to the bed? 
+
+> ### ***I am!*** 
+
+I started to look for object vision based solutions to monitor my prints or open datasets to train my own model without any success. There are several projects available like [The Spaghetti Detective](https://www.thespaghettidetective.com/), [Kronos Data Collector](https://github.com/MrBreadWater/project-kronos-data-collector), etc. but I was searching for a more open and extensible approach to solve this problem. But unfortunately everything starts with a **good** dataset 😣. I labeled a few hundred pictures of my beloved Prusa MK3S and trained several models to detect certain edge cases which worked out quite well but I want to find a generalized solution which can be used accross the 3D-Printing community. So let me just start with some core **tenets** of this project:
 - Everything will be **open-source**!
 - The dataset is crowdsourced and licensed as [**ODbL**](https://opendatacommons.org/licenses/odbl/1-0/index.html)
 - Labeling of the data will be crowssourced, too.
