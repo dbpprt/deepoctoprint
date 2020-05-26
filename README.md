@@ -9,7 +9,7 @@ You own a 3D Printer? You're using OctoPrint? Your printer is equipped with a ca
 
 Then you're the **right** person. Please install the plugin and help us to make a better world! (just kidding, I'm just tired of failing prints in an overnight print).
 
-You can download the plugin [here](https://addlinkhere) (*I'm sorry - you can't as of now 😥)
+You can download the plugin [here](https://addlinkhere) (*I'm sorry - you can't as of now* 😥)
 
 ## ~~TLDR~~ Slightly longer version 📚
 
