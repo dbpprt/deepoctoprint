@@ -141,4 +141,6 @@ Some parts of the repository are licensed under different licenses and contain s
 ## Bonus content 🙈
 ![Wow](https://media.giphy.com/media/vQqeT3AYg8S5O/source.gif)
 
-If you really read the entire page till here (and I admit it is pretty long and boring) it must be atleast an interesting project so feel free to drop a 🌟 star or follow the project!
+If you really read the entire page till here (and I admit it is pretty long and boring) it must be at least an interesting project so feel free to drop a 🌟 star or follow the project!
+
+(PS: I just like **GIFS** and it is hopyfully eye-catching enough to read the above line) 
