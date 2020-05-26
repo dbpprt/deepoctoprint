@@ -46,7 +46,7 @@ Currently there is nothing more then a data collector, implemented as **OctoPrin
 
 > **Where will my data be stored?**
 
-The collected data will be stored Frankfurt (DigitalOcean)
+The collected data will be stored in Frankfurt (DigitalOcean)
 
 > **What happens if I'm accidentially naked in front of my 3D printer?**
 
