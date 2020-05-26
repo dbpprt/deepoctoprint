@@ -130,6 +130,10 @@ Some parts of the repository are licensed under different licenses and contain s
 
 ### Active (code / project contributors)
 - [Dennis](https://github.com/dennisbappert)
+- 😲[your name can be here!](https://github.com/dennisbappert/deepoctoprint/pulls)
+- 💤 it is quite empty here
 
 ### Passive (dataset contributors)
 - [Dennis](https://github.com/dennisbappert)
+- 😲[your name can be here!](https://github.com/dennisbappert/deepoctoprint/pulls)
+- 💤 it is quite empty here
