@@ -137,3 +137,8 @@ Some parts of the repository are licensed under different licenses and contain s
 - [Dennis](https://github.com/dennisbappert)
 - 😲 [your name can be here!](https://github.com/dennisbappert/deepoctoprint/pulls)
 - 💤 it is quite empty here 💤
+
+## Bonus content 🙈
+![Wow](https://media.giphy.com/media/vQqeT3AYg8S5O/source.gif)
+
+If you really read the entire page till here (and I admit it is pretty long and boring) it must be atleast an interesting project so feel free to drop a 🌟 star or follow the project!
