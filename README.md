@@ -1,4 +1,6 @@
 # 🤖 DeepOctoPrint 🤖 (*WIP: data collector only*)
+![](https://img.shields.io/badge/images%20collected-0-brightgreen?style=for-the-badge)  ![](https://img.shields.io/maintenance/yes/2020?style=for-the-badge)  ![](https://img.shields.io/github/stars/badges/shields.svg?style=for-the-badge)
+
 ![Spaghettimonster](assets/spaghettimonster.jpg)
 ([source](https://www.pinterest.ca/pin/287174913714717323/))
 
