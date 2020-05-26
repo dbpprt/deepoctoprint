@@ -4,14 +4,14 @@
 
 ---
 
-## TLDR
+## TLDR 🦥
 You own a 3D Printer? You're using OctoPrint? Your printer is equipped with a camera? You want to help in develop a deep nerual network to detect failing 3D prints without looking at your printer all the time? You're willing to donate frames of your camera to a public dataset?
 
 Then you're the **right** person. Please install the plugin and help us to make a better world! (just kidding, I'm just tired of failing prints in an overnight print).
 
 You can download the plugin [here](https://addlinkhere)
 
-## ~~TLDR~~ Slightly longer version
+## ~~TLDR~~ Slightly longer version 📚
 
 Are you tired of failed prints during the night? Tired of clogging, spaghetti, warping and objects not sticking to the bed? 
 
