@@ -1,5 +1,8 @@
 # 🤖 DeepOctoPrint 🤖 (- Data Collector only - WIP)
 ![Spaghettimonster](assets/spaghettimonster.jpg)
+([source](https://www.pinterest.ca/pin/287174913714717323/))
+
+---
 
 Are you tired of failed prints during the night? Tired of clogging, spaghetti, warping and objects not sticking to the bed? 
 
